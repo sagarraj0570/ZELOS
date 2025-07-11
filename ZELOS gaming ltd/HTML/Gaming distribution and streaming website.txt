@@ -1,0 +1,24 @@
+                                       Gaming distribution and streaming website
+
+
+->Logo
+->Name
+->Search bar
+->store
+->community
+->support
+->About
+->Login 
+->signup
+->Account info
+->Dashboard
+{
+->top games this week
+->Recommended
+->Coming soon
+
+}
+->Latest News
+->Your games
+
+

@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+h1{
+    font-size: 100px;
+    color: darkgoldenrod;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.first{
+    width: 100vw;
+    height: 60px;
+    background-color: darkgoldenrod; 
+    margin-left:-15px;
+    margin-right: -10px;
+    margin-top: -50px;
+    display: flex;
+}
+h3{
+    margin-left: 40px;
+}
+.second{
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    width: 1400px;
+    height: 465px;
+}
+.sa{
+    width: 90%;
+    height: 100%;
+}
+.sb{
+    background-color: rgb(85, 78, 78);
+    width:280px;
+    height: 320px;
+    margin-top: -80px;
+    margin-right: -116px;
+    padding-top: 80px;
+    padding-left: 20px;
+    font-size: large;
+}
+footer{
+    background-color: darkgoldenrod;
+    width: 100vw;
+    height: 45px;
+    margin-left: -15px;
+    padding-top: 5px;
+    padding-left: 5px;
+}

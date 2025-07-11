@@ -1,0 +1,44 @@
+:root {
+    --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
+    --raisin-black-1: hsl(0, 0%, 16%);
+    --marigold: hsl(42, 99%, 46%);
+    --platinum: hsl(0, 0%, 89%);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--raisin-black-1);
+    color: var(--platinum);
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: var(--marigold);
+    text-align: center;
+  }
+  
+  .affiliate-content {
+    background-color: var(--rich-black-fogra-29_95);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: var(--marigold);
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  

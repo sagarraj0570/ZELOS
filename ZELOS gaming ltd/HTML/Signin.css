@@ -1,0 +1,62 @@
+:root {
+    --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
+    --raisin-black-1: hsl(0, 0%, 16%);
+    --marigold: hsl(42, 99%, 46%);
+    --platinum: hsl(0, 0%, 89%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--rich-black-fogra-29_95);
+    color: var(--platinum);
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: var(--marigold);
+    text-align: center;
+}
+
+.login-form {
+    background-color: var(--raisin-black-1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--platinum);
+    border-radius: 4px;
+    background-color: var(--rich-black-fogra-29_95);
+    color: var(--platinum);
+}
+
+input[type="submit"] {
+    background-color: var(--marigold);
+    color: var(--platinum);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--platinum);
+    color: var(--rich-black-fogra-29_95);
+}

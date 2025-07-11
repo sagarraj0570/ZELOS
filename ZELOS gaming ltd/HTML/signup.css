@@ -1,0 +1,97 @@
+:root {
+    --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
+    --raisin-black-1: hsl(0, 0%, 16%);
+    --raisin-black-2: hsl(236, 17%, 17%);
+    --raisin-black-3: hsl(280, 11%, 11%);
+    --raisin-black-4: hsl(280, 8%, 15%);
+    --english-violet: hsl(274, 21%, 23%);
+    --eerie-black-1: hsl(277, 25%, 10%);
+    --eerie-black-2: hsl(280, 7%, 8%);
+    --roman-silver: hsl(220, 6%, 59%);
+    --quick-silver: hsl(0, 1%, 65%);
+    --light-gray-1: hsl(0, 0%, 80%);
+    --light-gray-2: hsl(0, 2%, 82%);
+    --marigold_75: hsla(42, 99%, 46%, 0.75);
+    --xiketic_90: hsla(280, 37%, 8%, 0.9);
+    --cultured-2: hsl(0, 0%, 97%);
+    --marigold: hsl(42, 99%, 46%);
+    --platinum: hsl(0, 0%, 89%);
+    --dim-gray: hsl(0, 0%, 42%);
+    --white_15: hsla(0, 0%, 100%, 0.15);
+    --white_10: hsla(0, 0%, 100%, 0.1);
+    --xiketic: hsl(277, 25%, 10%);
+    --silver: hsl(0, 0%, 78%);
+    --white: hsl(0, 0%, 100%);
+    --jet: hsl(236, 13%, 23%);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--raisin-black-1);
+    color: var(--platinum);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--rich-black-fogra-29_95);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--marigold);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--dim-gray);
+    border-radius: 4px;
+    background-color: var(--jet);
+    color: var(--platinum);
+  }
+  
+  input[type="submit"] {
+    background-color: var(--marigold);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--marigold_75);
+  }
+  
+  .switch {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--marigold);
+  }
+  
+  .switch a {
+    color: var(--marigold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .switch a:hover {
+    color: var(--marigold_75);
+  }
+  

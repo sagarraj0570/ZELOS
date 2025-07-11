@@ -1,0 +1,47 @@
+:root {
+    --rich-black-fogra-29_95: hsla(222, 18%, 11%, 0.95);
+    --marigold: hsl(42, 99%, 46%);
+    --platinum: hsl(0, 0%, 89%);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--rich-black-fogra-29_95);
+    color: var(--platinum);
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: var(--marigold);
+    text-align: center;
+  }
+  
+  .terms {
+    background-color: var(--raisin-black-1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: var(--marigold);
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    margin-bottom: 15px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
